@@ -1,0 +1,238 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #1A1F1F;
+    color: #ADADAD;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    color: #01EFAB;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+p {
+    margin-bottom: 20px;
+}
+.highlight {
+    color: #01EFAB;
+}
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.button {
+    background-color: #2A2D35;
+    border: none;
+    padding: 10px;
+    color: #ADADAD;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.categories {
+    margin-top: 20px;
+}
+.category {
+    margin-bottom: 10px;
+}
+.input-group {
+    background-color: #2A2D35;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+input[type="text"] {
+    background-color: transparent;
+    border: none;
+    color: #ADADAD;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.stats {
+    background-color: #2A2D35;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.stats p {
+    margin: 5px 0;
+}
+
+/* Import Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main container styles */
+.campaign-master-bot {
+  max-width: 28rem;
+  margin: 0 auto;
+  background-color: #1a202c;
+  color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Header styles */
+.campaign-master-bot__header {
+  margin-bottom: 1.5rem;
+}
+
+.campaign-master-bot__title {
+  font-size: 1.875rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+  color: #4fd1c5;
+}
+
+.campaign-master-bot__subtitle {
+  font-size: 1.125rem;
+}
+
+.campaign-master-bot__name {
+  font-weight: 300;
+  color: #4fd1c5;
+}
+
+/* Question list styles */
+.campaign-master-bot__question-list {
+  margin-bottom: 1rem;
+}
+
+.campaign-master-bot__question-item {
+  display: flex;
+  align-items: center;
+  background-color: #2d3748;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 100%;
+  text-align: left;
+  transition: background-color 0.3s ease;
+  margin-bottom: 0.75rem;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.campaign-master-bot__question-item:hover {
+  background-color: #4a5568;
+}
+
+.campaign-master-bot__question-icon {
+  background-color: #4a5568;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+}
+
+.campaign-master-bot__question-text {
+  font-size: 0.875rem;
+}
+
+/* Custom question form styles */
+.campaign-master-bot__form {
+  margin-top: 1rem;
+  display: flex;
+}
+
+.campaign-master-bot__input {
+  flex-grow: 1;
+  padding: 0.75rem;
+  border-top-left-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
+  background-color: #2d3748;
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+
+.campaign-master-bot__input:focus {
+  box-shadow: 0 0 0 2px #4fd1c5;
+}
+
+.campaign-master-bot__input::placeholder {
+  color: #a0aec0;
+}
+
+.campaign-master-bot__submit {
+  background-color: #319795;
+  color: #ffffff;
+  padding: 0.75rem;
+  border-top-right-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.campaign-master-bot__submit:hover {
+  background-color: #2c7a7b;
+}
+
+/* Answer styles */
+.campaign-master-bot__answer {
+  background-color: #2d3748;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.campaign-master-bot__answer-label {
+  font-size: 0.875rem;
+  color: #a0aec0;
+  margin-bottom: 0.25rem;
+}
+
+.campaign-master-bot__answer-text {
+  font-weight: 300;
+  white-space: pre-line;
+}
+
+/* Chart styles */
+.campaign-master-bot__chart {
+  margin-top: 1rem;
+}
+
+/* Button styles */
+.campaign-master-bot__button {
+  flex: 1;
+  background-color: #319795;
+  color: #ffffff;
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.campaign-master-bot__button:hover {
+  background-color: #2c7a7b;
+}
+
+.campaign-master-bot__button--end {
+  background-color: #e53e3e;
+}
+
+.campaign-master-bot__button--end:hover {
+  background-color: #c53030;
+}
+
+/* Button container */
+.campaign-master-bot__button-container {
+  display: flex;
+  gap: 0.5rem;
+}

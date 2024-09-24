@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { BarChart2, Mail, Users, TestTube, Send } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, Cell } from 'recharts';
+import "./Dados.css"
 
 // Simplified chart component for all data types with updated color scheme
 const SimpleBarChart = ({ data }) => {
@@ -18,7 +19,7 @@ const SimpleBarChart = ({ data }) => {
       </Bar>
     </BarChart>
   );
-};
+}; 
 
 const initialQuestions = [
   {
@@ -110,7 +111,7 @@ const customQuestions = [
   }
 ];
 
-const CampaignMasterBot = () => {
+const Dados = () => {
   const [stage, setStage] = useState('initial');
   const [conversation, setConversation] = useState([]);
   const [customQuestion, setCustomQuestion] = useState('');
@@ -230,4 +231,4 @@ const CampaignMasterBot = () => {
   );
 };
 
-export default CampaignMasterBot;
+export default Dados;
